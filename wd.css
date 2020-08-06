@@ -1,0 +1,486 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html{ scroll-behavior: smooth;
+      }
+body{
+    background: url('https://free4kwallpapers.com/uploads/originals/2015/09/19/portfolio-background.png');
+    background-size: cover;
+    
+}
+
+.leftmy{
+    border: solid 3px whitesmoke;
+    background: url('https://free4kwallpapers.com/uploads/originals/2015/09/19/portfolio-background.png');
+    background-size: cover;
+    
+}
+.leftmy img{
+    width: 30%;
+    border: solid 3px white;
+    box-shadow: 2px 3px 10px white;
+    border-radius: 50%;
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+       
+
+
+.right{
+    
+    margin-right: 50px;
+    float:right;
+    display: inline-block;
+    width: 70%;
+    
+   
+}
+
+.right li{
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 30px;
+    border: solid 3px whitesmoke;
+    
+}
+
+.right li a{
+    color:hsla(0, 48%, 94%, 0.925);
+    text-decoration: none;
+    padding: 60px;
+    font-weight: 100%;
+    font-family: 'Orbitron', sans-serif ;
+    
+    }
+
+.right li:hover{
+    
+    background: whitesmoke;
+    transition: 1s;
+    }
+
+.right li:hover a{
+    color: black;
+    text-decoration: underline;
+    
+}
+.leftmy {
+    color:white;
+    font-family: 'Orbitron', sans-serif ;
+    font-size: 3vh;
+    }
+
+.c1{ 
+    float: right;
+    width: 60%;
+    margin-top: 20%;
+    
+}
+.About{
+    background: white;
+    text-align: center;
+    width:100%;
+    font-family: 'Orbitron', sans-serif;
+    border:solid 5px black ;
+    box-shadow:2px 3px 5px black;
+    
+}
+.About h1{ 
+            text-align: center;
+                  }
+
+.fa-info{ background: black;
+          border:solid 10px black ;
+          border-radius:30%;
+          width:1%;
+          margin-top: 1%;
+         box-shadow:2px 3px 5px black;
+         color:white;
+         text-align: center;
+        }       
+
+.para1{
+    
+    width:30%;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 0%;
+    margin-left: 35%;
+    margin-bottom: 2%;
+    text-align: center;
+}      
+
+.Ai{
+    text-align: center;
+    color: white;
+    font-family:'Orbitron', sans-serif;
+    margin-top: 2%;
+    width:100%
+
+
+}
+.Ai h1{
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+ 
+.Aimain{
+    margin-bottom: 2%;
+    font-size: 2vh;
+}
+
+.aiimg img{
+   width:90%;
+   box-shadow: 1px 1px 5px 2px greenyellow;
+   border:solid 3px greenyellow;
+   margin-top: 2%;
+
+
+}
+
+.Myproject{
+    width: 13%;
+    background: greenyellow;
+    box-shadow: 1px 1px 5px 2px greenyellow;
+    border:solid 10px greenyellow;
+    
+}
+
+.Myproject a{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 2vh;
+    color: black;
+    text-decoration: none;    
+}
+
+.Gallery{
+    background:white;
+    color: black;
+    font-size: 5vh;
+    margin-top: 3%;
+    width:100%;
+    }
+
+
+.gallery2{
+    width:80%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    
+}
+.gallery2 img{
+    box-shadow: 2px 3px 5px 3px black;
+    width: 80%;
+    margin-bottom: 10%;
+}
+.gallery{
+    width: 80%;
+    margin-left: 18%;
+    margin-bottom: 2%;   
+    
+}
+
+.gallery img{
+    box-shadow: 2px 3px 5px 3px black;
+    width: 80%;
+    margin-bottom: 10%;
+    margin-right: 60%;
+}
+
+
+.MyInterest{
+    color: white;
+    background: url('https://storageswiss.files.wordpress.com/2017/08/technology-background-pcb-and-code.jpg?w=1200');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    font-family: 'Orbitron', sans-serif;
+    border: solid 2px white;
+    box-shadow: 1px 1px 5px 3px white;
+    
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    
+}
+
+.MyInterest h1{
+    background:white ;
+    color: black;
+    border:solid 2px rgba(0, 0, 0, 0.767);
+    font-family: 'Orbitron', sans-serif;
+    
+
+}
+
+.MyInterest p{
+    font-size: 2.5vh;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width:100%;
+}
+
+.what{
+    color: white;
+    text-align: center;
+    background: black;
+    box-shadow: 2px 2px 6px 4px black;
+    width: 100%;
+    border :solid 3px whitesmoke;
+    
+    
+}
+
+.what h1{
+    font-family:'Orbitron', sans-serif ;
+    background: white;
+    color: black;
+    
+}
+
+.what p{
+    margin-top: 1%;
+    font-family:'Orbitron', sans-serif ;
+    margin-bottom: 1%;
+
+}
+.contact{
+    color: white;
+    background-color: black;
+    margin-top: 3%;
+    text-align: center;
+    font-family:'Orbitron', sans-serif ;
+    border: solid 2px white;
+    width: 100%;
+    
+}
+.contact p{
+    margin-bottom: 3%;
+}
+.contact h1{
+    background-color: white;
+    color: black;
+    font-family:'Orbitron', sans-serif ;
+    text-align: center;
+}
+
+.fa-facebook-official{
+    color:white;
+    margin-top: 1%;
+   width: 1%;
+}
+
+.fa-instagram{
+    color:white;
+    margin-top: 1%;
+    width: 1%;
+}
+
+.right .closebtn{
+    display: none;
+    color:white;
+}
+
+span{
+    display: none;}
+
+
+
+
+
+@media only screen and (max-width:1600px){
+
+.MyInterest p{
+      font-size: 2vh;
+}
+
+}
+
+@media only screen and (max-width:1390px){
+
+ .c1{
+     font-size: 2.5vh;
+ }   
+
+ .right{
+     width:90%;
+ }
+
+}
+
+@media only screen and (max-width:1079px){
+    
+.right{
+    height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+  
+}  
+
+ul{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    background:black;
+  }
+  
+  .right li{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+
+  
+  .right li:hover, .right li:focus {
+    color: black;
+  }
+  
+  .right .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  span{
+      display: block;
+  }
+
+  .right .closebtn{
+      display: block;
+  }
+  
+}
+
+@media only screen and (max-width:943px){
+
+    .para1{
+        font-size: 2vh;
+        width: 40%;
+        margin-left: 30%;
+        text-align: center;
+       }
+
+       .MyInterest{
+           width: 80%;
+           margin-left: 12%;
+       }
+
+    .MyInterest p{
+        width:100%;
+        font-size: 65%;
+    }
+    .what p{
+        width:100%;
+        font-size: 80%;
+       }
+    }
+
+    @media only screen and (max-width:808px){
+        
+        .c1{
+            font-size: 2vh;
+        }
+
+        .para1{
+            width: 90%;
+            font-size: 2vh;
+            margin-left: 5%;
+        }
+    }
+
+    @media only screen and (max-width:786px){
+    
+        .MyInterest p{
+            width:100%;
+            font-size: 90%;
+        }
+
+        .what p{
+             width:100%;
+             font-size: 90%;
+            }
+
+    }
+
+    @media only screen and (max-width:648px){
+     
+        .MyInterest p{
+            width:100%;
+            font-size: 95%;
+        }
+
+        .what p{
+             width:100%;
+             font-size: 70%;
+            }
+        
+        .c1{
+            font-size: 1.5vh;
+        }    
+
+        .para1{
+            font-size: 1.5vh;
+        }
+
+    }
+
+    @media only screen and (max-width:488px){
+        
+     .c1{
+         font-size: 1.1vh;
+     }   
+     .para1{
+         font-size: 1.1vh;
+     }
+     .Aimain{
+         font-size: 1.1vh;
+     } 
+     .Myproject{
+         width: 30%;
+     }
+     .MyInterest{
+         font-size: 1.3vh;
+     }  
+    }
+
+    @media only screen and (max-width:488px){
+        .c1{
+            font-size: 0.8vh;
+        }
+        .MyInterest{
+            font-size: 0.9vh;
+        }
+
+        .right li{
+            font-size: 2.5vh;
+        }
+    }
+
+    @media only screen and (max-width:336px){
+     
+        .right li{
+            font-size: 1.8vh;
+        }
+        .Myproject{
+            width: 60%;
+        }
+    }

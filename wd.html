@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="wd.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron:wght@700&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+     <span style="font-size:37px;cursor:pointer;color:black; background: white;text-align: center;font-weight: bold;box-shadow:1px 2px 5px 3px white;" onclick="openNav()">&#9776;</span>
+       
+    <div class="right"id ="menu_small">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+            <ul  >
+                <li class="active" style="
+                    height: 40px;
+                    padding-right: 5px;
+                    margin-right:5px;padding-top: 10px;
+    padding-left: 10px;padding-right: 10px;"><a href="#home">Home</a></li>
+                <li style="height: 40px;
+                    margin-right: 5px;padding-top: 10px;
+    padding-left: 10px;padding-right: 10px;"><a onclick="scrollWin(0,4500)" href="#whatcanido">What Can I Do</a></li>
+                <li style="height: 40px;
+                    margin-right: 5px;padding-top: 10px;
+    padding-left: 10px;padding-right: 10px;"><a href="#Myprojects">My Projects</a></li>
+                <li style="height: 40px;padding-top: 10px;padding-right: 10px;
+                padding-left: 10px;"><a  onclick="scrollWin(0,5000)" href="#ContactMe">Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="leftmy">
+        <img src="hl.jpg" alt="MyImage">
+        <div class="c1">
+            <h1>Hey Folks!!</h1>
+            <h2>I'm Akshat Saxena</h2>
+            <h3>and this place is a showcase of my skills and achievements..!!</h3>
+        </div>
+    </div>
+
+    <div class="About">
+        <p><i class="fa fa-info" aria-hidden="true"></i><br>
+        <h1>About Me</h1>
+        <div class="para1"><br> A Website Developer skilled in technologies such as HTML, CSS, Javascript & Python for
+            creating responsive and interactive websites for user.<br>
+            I thrive on challenges and constantly set goals so that I have something to strive towards. My objective is
+            to ensure that whenever the user opens
+            a website they see the information in a format that is easy to read , perfectly designed and compatible in
+            all devices . </p>
+        </div>
+    </div>
+    <div class=Ai>
+        <h1>A Virtual Dsktop Assistant created using Python </h1>
+        <div class="Aimain"> My python skills assisted in developing a virtual desktop assistant using Google speech
+            recognition module.<br>
+            In simple words , it is a project based on voice recognition. Whatever the user asks to perform the PC
+            performs
+            that function on its own.<br>
+            This project has no limits and can be extended on the basis of requirements of the user. It is similar to
+            "JARVIS" which we usually watch in an iron man movie.</div>
+        
+        <button class="Myproject"><a href="#Myprojects">My Projects</a>
+        </button>
+        <div class="aiimg">
+            <img src="1.png" alt="myprojectai">
+        </div>
+
+        <div class="Gallery">
+            <h1>Gallery</h1>
+            <div class="gallery"><img src="5.jpg" alt ="5.jpg"></div>
+            <div class="gallery2"><img src="9.jpg"></div>
+        </div>
+
+    </div>
+
+    <div class="MyInterest">
+        <h1>My Interest</h1>
+        <p>My interest in technologies such as HTML , Python , etc. evolved in my college. When the first techfest<br>
+            was organised I learned about many projects based on AI and grab interest towards programming. I further<br>
+            started creating projects like games, calculators, etc. using different modules and developing websites
+            as<br>
+            well as creating innovative structures and designs which further improved my skills.This website is
+            a <br>showcase of my skills and also about my perception towards the growing technical sector. </p>
+    </div>
+    <div class="what">
+        <h1>What Can I Do ?</h1>
+        <p>Do you want a responsive & innovative website for your company , business, gym , cafe , etc <br>like mine .
+            Then do give ur feedback below and contact me for such projects and websites..!!</p>
+    </div>
+    <div class="contact">
+        <h1>Contact Me</h1>
+        <p>Name: <input style="width: 270px;
+            margin-left: 20px;
+            margin-top: 32px;
+            margin-right: 43px;
+            font-family:'Orbitron', sans-serif;" type="text" name="Name"><br>
+           E-mail: <input style="width: 270px;
+           margin-left: 20px;
+           margin-top: 32px;
+           margin-right: 43px;
+           font-family:'Orbitron', sans-serif;" type="text" name="E-mail"><br>
+           Message: <input style="width: 311px;
+           margin-left: 32px;
+           margin-top: 32px;
+           margin-right: 43px;
+           font-family: 'Orbitron', sans-serif;
+           height: 66px;
+           margin-bottom: 30px;" type="text" name="Contact"><br>
+           <button style="margin-bottom: 30px;
+           font-size: 25px;
+           font-family: 'Orbitron', sans-serif;
+           box-shadow:2px 1px 5px 3px white; 
+           ">Submit</button> <br>
+        My E-mail : acousitician01@gmail.com<br>
+        <a href="https://www.instagram.com/acoustician_001/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/akshat.saxena.1000"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <br>
+        Powered & Designed By AS  
+        
+           </p>
+    </div>
+    <script> function scrollWin(x,y){
+        window.scrollBy(x,y);
+    }
+    </script>
+    <script>
+        function openNav() {
+          document.getElementById("menu_small").style.height = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("menu_small").style.height = "0%";
+        }
+        </script>
+    
+</body>
+
+</html>
